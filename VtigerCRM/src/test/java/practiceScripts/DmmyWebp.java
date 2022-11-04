@@ -10,6 +10,7 @@ public class DmmyWebp
 {
 public static void main(String[] args) throws InterruptedException
 {
+	//wellcome to facebook
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
