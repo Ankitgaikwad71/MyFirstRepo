@@ -10,7 +10,7 @@ public class DmmyWebp
 {
 public static void main(String[] args) throws InterruptedException
 {
-	//wellcome to facebook
+	
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
@@ -23,6 +23,6 @@ public static void main(String[] args) throws InterruptedException
 	driver.findElement(By.xpath("//a[@id='afef']")).click();
 	Thread.sleep(5000);
 	driver.quit();
-	//end of the program
+	
 }
 }
